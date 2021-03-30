@@ -1,0 +1,920 @@
+html,body {
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100% !important;
+}
+
+a {
+    transition-property: all;
+    transition-duration:500ms;
+}
+
+a:hover {
+    color:rgb(225, 146, 0);
+}
+
+/* *First Section [.secion-a] styling with navbar etc. */
+
+header {
+    width:70%;
+    height:30px;
+    margin:0 auto;
+    display:table;
+    top:0;
+    margin-bottom:10px;
+    animation-duration:2s;
+
+}
+
+.logo {
+    float:left;
+    font-family:'Source Sans Pro';
+    margin:0;
+    margin-top:15px;
+    color:rgb(2, 2, 70);
+}
+
+header nav {
+    float:right;
+    margin-right:20px;
+}
+
+header nav ul li{
+    float:left;
+    list-style-type:none;
+    margin-left:20px;
+}
+
+header nav ul li a {
+    text-decoration:none;
+    font-family:'Source Sans Pro';
+    color:rgb(3, 3, 67);
+}
+
+.section-a {
+    height:100%;
+}
+
+.section-a .left {
+    width:45%;
+    height:100%;
+    display:table;
+    top:0;
+    float:left;
+    animation-duration:2s;
+}
+
+.section-a .container {
+    width:300px;
+    float:right;
+    margin-right:230px;
+    margin-top:25% !important;
+}
+
+.section-a .left h1{
+    font-family:'Source Sans Pro';
+    font-weight:700;
+    font-size:44px;
+    color:rgb(2, 2, 70);
+    margin-bottom:5px;
+}
+
+.section-a .left p {
+    width:300px;
+    font-size:16px;
+    font-family:'Source Sans Pro';
+    font-weight:400;
+    color: rgb(2, 2, 70);
+    line-height:27px;
+    margin-top:0;
+}
+
+.section-a .left button {
+    background:rgb(225, 146, 0);
+    color:white;
+    border:none;
+    width:120px;
+    height:40px;
+    cursor:pointer;
+}
+
+.section-a .right {
+    width:55%;
+    height:100%;
+    float:right;
+    background:url(images/a.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    animation-duration:2s;
+
+}
+
+/* *End of the styling for the section a  */
+
+/* *Start of styling for the second section [.section-b] */
+
+.section-b {
+    height:60vh;
+    display:table;
+    width:100%;
+}
+
+.section-b .left {
+    width:45%;
+    background:url(images/b.jpg) ;
+    
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    height:100%;
+    float:left !important;
+}
+/* 
+.section-b .right {
+    float:right;
+} */
+
+.section-b .right h1{
+    font-family:'Source Sans Pro';
+    color:rgb(2, 2, 70);
+    font-size:42px;
+    margin:0;
+}
+
+.section-b .right .container p {
+    width:600px;
+    font-size:16px;
+    font-family:'Source Sans Pro';
+    font-weight:400;
+    color: rgb(2, 2, 70);
+    line-height:27px;
+    margin-top:5px;
+}
+
+.section-b .container {
+    width:850px;
+    float:left;
+    /* margin-right:230px; */
+    margin-top:100px;
+    margin-left:50px;
+}
+
+.section-b button {
+    color:#fff;
+    width:120px;
+    height:40px;
+    background:rgb(225, 146, 0);
+    border:none;
+    margin-top:30px;
+    cursor:pointer;
+}
+
+span {
+    font-weight:400;
+}
+
+.section-b .icon-1 {
+    float:right !important;
+}
+
+
+.section-b .icon-1,.section-b .icon-2 {
+    width:320px;
+}
+
+.section-b .icon-1 p, .section-b .icon-2 p{
+    width:350px !important;
+    font-size:14px !important;
+    font-family:'Source Sans Pro';
+    color:rgb(2, 2, 70);
+}
+
+.section-b .icon-1  h2,.section-b .icon-2 h2{
+    margin:0;
+    margin-top: 30px;
+    font-size:20px;
+    font-family:'Source Sans Pro';
+    color:rgb(2, 2, 70);
+    font-weight:600;
+}
+
+
+.section-b .icon-1 h2 {
+    margin:0 !important;
+
+}
+
+.section-b .icon-1 {
+    margin-right:150px;
+    height:90px;
+    margin-top:10px;
+}
+
+/* *End of the styling for the section b  */
+
+
+/* * Start of the styling for the section c */
+
+.section-c {
+    width:100%;
+    height:700px;
+    font-family:'Source Sans Pro';
+}
+
+.section-c .section-header {
+    text-align:center;
+    color:rgb(2, 2, 70);
+    font-size:42px;
+}
+
+.first-container {
+    width:100%;
+    height:450px;
+}
+
+.first-container div {
+    width:25%;
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height:100%;
+    float:left;
+
+}
+
+.second-container {
+    width:100%;
+    height:500px;
+    /* background:red; */
+    margin:0 auto;
+}
+
+.second-container div {
+    background:url(images/20191018_133350-scaled.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    width:17rem;
+    height:250px;
+    float:left;
+}
+
+.second-container .fourth {
+    background:rgb(225, 146, 0) !important;
+    color:#fff;
+    width:302px;
+}
+
+.second-container .fourth h1{
+    font-size:42px;
+    margin:0;
+    margin-left:20px;
+    margin-top:20px;
+}
+
+.second-container .fourth p {
+    margin:0;
+    margin-left:20px;
+    font-size:16px;
+
+}
+
+.second-container .fourth button {
+    border:none;
+    margin-left:20px;
+    margin-top:40px;
+    width:110px;
+    height:40px;
+    line-height:0;
+    color:rgb(225, 146, 0);
+    cursor:pointer;
+}
+
+*:focus {
+    outline:none;
+}
+
+/* * End of the styling for section-c */
+
+/* * Start of the styling for section-d */
+
+.section-d {
+    height:550px;
+}
+
+.section-d .section-header {
+    margin-left:10%;
+    color:rgb(2, 2, 70);
+    font-size:42px;
+    font-family:'Source Sans Pro';
+    margin-top:80px;
+}
+
+.section-d form{
+    width:580px;
+    margin-left:10%;
+    font-family:'Source Sans Pro';
+    float:left;
+}
+
+input,textarea {
+    border:1px solid #ccc;
+}
+
+input:focus,textarea:focus {
+    outline:none;
+}
+
+.section-d form .email {
+    width:250px;
+    height:35px;
+    padding-left:20px;
+}
+
+.section-d form .subject {
+    width:250px;
+    height:35px;
+    padding-left:20px;
+    margin-left:20px;
+}
+
+.section-d form textarea {
+    width:553px;
+    margin-top:20px;
+    height:240px;
+    resize:none;
+    font-family:'Source Sans Pro';
+    padding-left:20px;
+    padding-top:10px;
+    font-size:16px;
+}
+
+.section-d form button {
+    background:rgb(225, 146, 0);
+    border:none;
+    height:50px;
+    width:150px;
+    font-family:'Source Sans Pro';
+    color:#fff;
+    font-weight:400;
+    font-size:18px;
+    margin-top:30px;
+    cursor:pointer;
+}
+
+.info-container {
+    width:700px;
+    height:300px;
+    float:left;
+    margin-left:30px;
+    font-family:'Source Sans Pro';
+    color:rgb(2, 2, 70);
+}
+
+.info-container p {
+    margin:0;
+}
+
+.info-container h2 {
+    font-size:30px;
+}
+
+.info-container i,.first i {
+    margin-top:30px;
+    font-size:30px;
+    color:rgb(225, 146, 0);
+    transition-property: all;transition-duration:500ms;
+    cursor:pointer;
+}
+
+.info-container i:hover,.first i:hover{ 
+    color:rgb(2, 2, 70);
+}
+
+/* * End of the styling for section-d */
+
+/* * Start of the styling for section-f */
+
+.call-us {
+    width:100%;
+    height:300px;
+    text-align:center;
+    font-family:'Source Sans Pro';
+    color:#fff;
+    font-weight:lighter !important;
+    background:rgb(2, 2, 70);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+.call-us h4 {
+    width:400px;
+    margin:0 auto;
+    font-weight:400 !important;
+
+}
+
+.call-us h1 {
+    font-size:35px;
+}
+
+/* * End of the styling for section-f */
+
+/* * Start of the styling for the footer */
+
+footer {
+    width:100%;
+    height:350px;
+
+    font-family:'Source Sans Pro';
+}
+
+footer div {
+    width:33%;
+    height:68%;
+    float:left;
+    margin-bottom:40px;
+}
+
+footer .first h1 {
+    color:rgb(2, 2, 70);
+    margin:0;
+    margin-top:40px;
+    margin-left:40px;
+}
+
+footer .first p {
+    margin-left:40px;
+    color:rgb(2, 2, 70);
+}
+
+footer .second h2 {
+    color:rgb(2, 2, 70);
+    margin:0;
+    margin-top:40px;
+    margin-left:80px;
+}
+
+footer .second nav {
+    margin-left:40px;
+}
+
+footer .second nav ul  li {
+    list-style: none;
+    margin-top:5px;
+}
+
+footer .second nav ul li a {
+    text-decoration:none;
+    color:rgb(2, 2, 70);
+    font-size:20px;
+    transition-duration:500ms;
+    transition-property: all;
+}
+
+footer .second nav ul li a:hover {
+    color:rgb(225, 146, 0);
+}
+
+footer .third h2 {
+    margin:0;
+    margin-top:40px;
+    margin-left:40px;
+    color:rgb(2, 2, 70);
+
+}
+
+footer .third p {
+    margin-left:40px;
+    color:rgb(2, 2, 70);
+}
+
+footer .third input {
+    margin-left:40px;
+    border:none;
+    width:230px;
+    height:30px;
+    padding-left:10px;
+    border:1px solid #ccc;
+}
+
+footer .third button {
+    margin-left:40px;
+    margin-top:30px;
+    border:none;
+    width:120px;
+    height:40px;
+    color:#fff;
+    background:rgb(225, 146, 0);
+}
+
+footer h3 {
+    text-align:center;
+    font-weight:400 !important;
+    color:rgb(2, 2, 70);
+}
+
+.first i {
+    margin-top:30px;
+    font-size:30px;
+    color:rgb(225, 146, 0);
+    transition-property: all;transition-duration:500ms;
+    cursor:pointer;
+}
+
+.info-container i:hover,.first i:hover{ 
+    color:rgb(2, 2, 70);
+}
+
+.first i {
+    margin-top:10px;
+}
+
+/* ! Have to clean this code */
+
+.section-a button,.section-b button,.section-c button, .section-d button, .call-us button,footer button {
+    transition-property: all;
+    cursor:pointer;
+    transition-duration:500ms;
+}
+
+.section-a button:hover,.section-b button:hover,.section-c button:hover, .section-d button:hover, .call-us button:hover,footer button:hover {
+    background:rgb(3, 3, 67);
+    color:#fff;
+}
+
+
+@media only screen and (max-width:1366px) {
+    .section-a {
+        height: 70vh
+    }
+
+    .section-b .right .container{
+        width:20% ;
+    }
+
+    .section-b .right .container .icon-1 {
+        display:none;
+    }
+
+    .section-c .second-container div{
+        width:25%;
+    }
+
+    .section-c .second-container div:nth-child(5),.section-c .second-container div:nth-child(6) {
+        display:none;
+    }
+
+    .section-d .info-container {
+        width:300px;
+        margin-bottom:20px;
+        margin-top:0;
+    }
+
+    .section-d .info-container h2 {
+        margin-top:10px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    .section-a .left {
+        width:20% ;
+    }
+
+    .section-a .left .container {
+        margin-left:40px;
+        float:left ;
+    }
+
+    .section-a .right {
+
+        margin:0 ;
+        width:44% ;
+    }
+
+    .section-a .right .container{
+        height:100px ;
+    }
+
+    .section-b .left {
+        background:url(b.jpg) no-repeat center;
+        background-size:cover;
+        width:56%;
+        margin:0 ;
+        margin-left:0 ;
+    }
+
+    .section-b .right {
+        float:right ;
+        width:70px;
+        margin:0 ;
+        margin-left:0 ;
+        margin-right:0px ;
+        }
+
+    .section-b .right .container {
+        width:100%;
+        height:100%;
+        float:right ; 
+        margin:0 ;
+        margin-right:350px ;
+    }
+
+    .section-b .right .container h1  {
+        width:200px;
+        margin-top:30px;
+        margin-left:0 ;
+    }
+
+    .section-b .right .container p {
+        width:400px;
+    }
+
+    .icon-1 {
+        float: none ;
+        margin-right:90px ;
+        margin-bottom:40px;
+        margin-left:100px;
+        width:20px;
+
+    }
+
+    .section-b button {
+        margin-bottom:30px;
+    }
+
+    .second-container {
+        margin-bottom:30px ;
+    }
+
+    .second-container div {
+        width:25% ;
+    }
+
+    .section-d .section-header {
+        margin-top:40px ;
+        margin-left:30px ; 
+    }
+
+    .section-d form {
+        margin-left:30px;
+    }
+
+    .section-d {
+        height:550px ;
+    }
+
+    .section-d .info-container {
+        width:30%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+
+    .section-a {
+        width: 100% !important;
+    }
+
+    .section-a .left {
+        width:120px;
+    }
+
+    footer input {
+        width:180px ;
+    }
+
+    .section-b .left {
+        margin-right:0px ;
+        width:50%;
+    }
+
+    .section-a .right {
+        width:25%;
+    }    
+
+    .section-b .right {
+        width:20px;
+        
+    }
+
+    .section-b .right .container {
+        margin-top:50px;
+        margin-left:30px;
+    }
+
+    .section-b .right .container p {
+        width:350px;
+    }
+
+    .section-d form {
+        width:450px;
+    }
+
+    .section-d form input{
+        margin:0 ;
+        width:220px ;
+    }
+
+    .section-d form input:nth-child(2) {
+        margin-top:20px ;
+    }
+
+    .section-d form textarea {
+        width:420px ;
+    }
+
+    footer .third input {
+        width:190px 
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    html,body {
+        overflow-x:hidden;
+    }
+
+    header nav {
+        display:none;
+    }
+
+    header h2 {
+        text-align:center;
+        margin:0 auto;
+        margin-left:50px !important;
+    }
+
+    .section-a .left{
+        float:none;
+        width:100%;
+        height:70vh;
+    }
+
+    .section-a .right .container {
+        margin:0;
+        width:100% ;
+    }
+
+    .section-a .right {
+        width:100% ;
+        margin:0;
+    }
+
+
+
+
+    
+    .section-b .right .container {
+        width:375px; 
+    }
+
+    .section-b .left { 
+        display:none;
+    }
+
+
+    .section-b .right {
+        width:100% !important;
+    }
+
+    .section-b .right .icon-2 {
+        margin-top:150px ;
+        margin-left:20px;
+        height:100px ;
+    }
+
+    .section-b .right h1 {
+        margin-left:20px !important;
+        margin-top:20px;
+        width:120px;
+    }
+
+    .section-b .right .container p {
+        height:150px;
+        margin-left:20px ;
+        width:250px ; 
+    }
+
+    .section-b .right button {
+        margin-left:20px;
+    }
+
+    .section-c .second-container {
+        width:100% ;
+    }
+
+    .section-c .second-container div {
+        float:none ;
+        width:100% ;
+    }
+
+    .section-c .second-container div:nth-child(odd) {
+        display:none ;
+    }
+
+    .section-d {
+        margin-top:300px;
+        height:110vh ;
+    }
+
+    .section-d form {
+        margin:0;
+        width:100%;
+        height:500px;
+    }
+
+    .section-d form input {
+        float:none ;
+        margin-left:0 ;
+        margin-left:20px ;
+        width:200px ;
+    }
+
+    .section-d form input:nth-child(2) {
+        margin-top:20px;
+
+    }
+
+    .section-d form textarea {
+        width:300px;
+        margin-left:20px 
+    }
+
+    .section-d form button {
+        margin-left:20px; 
+    }
+
+    .section-d .info-container {
+        width:60% ;
+        margin:0 ;
+        float:none ;
+        margin:0 auto ;
+    }
+
+    .call-us h4 {
+        width:100% ;
+    }
+
+    .call-us h4:nth-child(2) {
+        font-size:2px;
+    }
+
+    footer .first {
+        width:50% ;
+        height:40% ;
+        float:left ;
+    }
+
+    footer .first h1 {
+        margin-left:20px;
+    }
+
+    footer .first p {
+        margin-left:20px;
+    }
+
+    footer .first i {
+        margin-left:20px ;
+    }
+
+    footer {
+        height:70vh;
+    }
+
+
+    footer .second {
+        float:right ;
+        width:50%;
+        height:40% ;
+    }
+
+    footer .second h2 {
+        margin-left: 40px;
+    }
+
+    footer .second nav {
+        margin-left:40px;
+    }
+
+    footer .second nav {
+        margin-left:0 ;
+    }
+
+    footer .third {
+        width:100%;
+        height:250px;
+        margin-top:20px;
+    }
+
+    footer h3 {
+        margin-top:0 !important;
+        height:30px;
+        padding-bottom:20px;
+    }
+}
+
