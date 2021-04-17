@@ -9,18 +9,20 @@
     <script src="https://kit.fontawesome.com/27dcb1d216.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollTrigger/1.0.5/ScrollTrigger.min.js" integrity="sha512-m/n857VfrPYUcRvzCfqfrC9aMT06TQA2V0DcX/Ovovrhswa3038FfYmHlB0l/ZMukVyKWmiwZI4Pnnd7v3FwFQ==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+
     <title>Dummy</title>
 </head>
 <body>
-    <section class="section-a">
+    <section class="section-a" id="home">
     <header class="animate__animated animate__fadeIn">
-        <h2 class="logo">Dummy Txzt.</h2>
+        <h2 class="logo">Estrich & Isolierung Danadzhi</h2>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Contacts</a></li>
+                <li><a data-scroll href="#home">Home</a></li>
+                <li><a data-scroll href="#about">About Us</a></li>
+                <li><a href="subpages/gallery.html">Gallery</a></li>
+                <li><a data-scroll href="#contacts">Contacts</a></li>
             </ul>
         </nav>
     </header>
@@ -33,8 +35,8 @@
     </div>
     <div class="right animate__fadeIn animate__animated"></div>
     </section>
-    <section class="section-b">
-        <div class="left" id="left2"></div> 
+    <section id="about" class="section-b">
+        <div class="left animation_left" id="left left2"></div> 
         <div class="right" id="right">
                 <div class="container">
                 <h1>About&nbsp; <span>Us</span></h1>
@@ -56,25 +58,25 @@
     </section>
     <section class="section-c">
         <div class="first-container">
-            <div class="1" style="background:url('css/images/1.jpg') no-repeat center;background-size:cover;"></div>
-            <div class="2" style="background:url('css/images/2.jpg') no-repeat center;background-size:cover;"></div>
-            <div class="3" style="background:url('css/images/3.jpg') no-repeat center;background-size:cover;"></div>
-            <div class="4" style="background:url('css/images/4.jpg') no-repeat center;background-size:cover;"></div>
+            <div class="1" style="background:url('subpages/original-1.jfif') no-repeat center;background-size:cover;"></div>
+            <div class="2" style="background:url('subpages/original-5.jfif') no-repeat center;background-size:cover;"></div>
+            <div class="3" style="background:url('subpages/original-3.jfif') no-repeat center;background-size:cover;"></div>
+            <div class="4" style="background:url('subpages/original-4.jfif') no-repeat center;background-size:cover;"></div>
         </div>
         <div class="second-container">
             <div class="1" style="background:url('css/images/5.jpg') no-repeat center;background-size:cover;"></div>
-            <div class="2" style="background:url('css/images/6.jpg') no-repeat center;background-size:cover;"></div>
+            <div class="2" style="background:url('subpages/original-9.jfif') no-repeat center;background-size:cover;"></div>
             <div class="3" style="background:url('css/images/7.jpg') no-repeat center;background-size:cover;"></div>
             <div class="fourth">
                 <h1>145 <span>+</span></h1>
                 <p>Copmleted Projects</p>
                 <button>Gallery</button>
             </div>
-            <div class="5" style="background:url('css/images/8.jpg') no-repeat center;background-size:cover;"></div>
+            <div class="5" style="background:url('subpages/original-8.jfif') no-repeat center;background-size:cover;"></div>
             <div class="6" style="background:url('css/images/9.jpg') no-repeat center;background-size:cover;"></div>
         </div>
     </section>
-    <section class="section-d">
+    <section class="section-d" id="contacts">
         <h1 class="section-header">Get In <span>Touch</span></h1>
         <form action="#">
             <input type="text" class="email" name="email" placeholder="Email">
@@ -84,23 +86,23 @@
         </form>
         <div class="info-container">
             <h2 class="info-header">Our Location</h2>
-            <p>Themeforest, Envato HQ 24 Fifth st., Los Angeles, USA</p>
+            <p>94571 Shaufliug - Deggendorf</p>
             <h2 class="info-header">Quick Contacts</h2>
-            <p>dummy@gmail.com</p>
-            <p style="margin-bottom:5px;">dummy.info@gmail.com</p>
+            <p>yusufdanadji@gmail.com</p>
+            <!-- <p style="margin-bottom:5px;">yusufdanadji@gmail.com</p> -->
             <i class="fab fa-facebook"></i>        
             <i class="fab fa-instagram" style="margin-left:20px;"></i>
             <i class="fab fa-twitter" style="margin-left:20px;"></i>
         </div>
     </section>
     <section class="call-us">
-        <h4 style="padding-top:50px;">CALL US TODAY</h4>
-        <h1>+359 87 666 0620</h1>
+        <h4 style="padding-top:50px;">RUF UNS HEUTE AN</h4>
+        <h1>+49 175 341 1957</h1>
         <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse provident blanditiis ipsa sed magni corrupti perspiciatis voluptates, dicta est reiciendis.</h4>
     </section>
     <footer>
         <div class="first">
-            <h1>Dummy Txzt.</h1>
+            <h1>Estrich & Isolierung Danadzhi</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, architecto?</p>
             
             <i class="fab fa-facebook" style="margin-left:40px;"></i>        
@@ -124,7 +126,13 @@
             <input type="text" class="subscribtion" placeholder="Email"><br>
             <button>Subscribe</button>
         </div>
-        <h3>Dummy Txzt. &copy; All Rights Reserved Copyrights 2021</h3>
+        <h3>Estrich & Isolierung Danadzhi &copy; All Rights Reserved Copyrights 2021</h3>
     </footer>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+	        speed: 1000,
+	        speedAsDuration: true
+        });
+    </script>
 </body>
 </html>
